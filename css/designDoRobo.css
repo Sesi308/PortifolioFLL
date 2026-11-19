@@ -147,6 +147,16 @@ body::after {
 	min-height: 320px;
 }
 
+.foto-robo-competicao {
+	display: block;
+	width: min(100%, 420px);
+	height: 300px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 24px;
+	object-fit: contain;
+	box-shadow: 0 14px 28px rgba(19, 8, 32, 0.28);
+}
+
 .robot-illustration {
 	position: relative;
 	width: min(100%, 420px);
@@ -265,6 +275,16 @@ body::after {
 	padding: 18px;
 	border-radius: 26px;
 	background: linear-gradient(180deg, rgba(90, 44, 128, 0.45), rgba(56, 33, 86, 0.6));
+}
+
+.foto-robo-showcase {
+	display: block;
+	width: min(100%, 500px);
+	max-height: 340px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 24px;
+	object-fit: contain;
+	box-shadow: 0 14px 28px rgba(19, 8, 32, 0.28);
 }
 
 .robot-render {
